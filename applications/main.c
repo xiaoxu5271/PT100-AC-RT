@@ -9,6 +9,7 @@
  */
 
 #include <rtthread.h>
+#include "PT100.h"
 
 #define DBG_TAG "main"
 #define DBG_LVL DBG_LOG
@@ -16,11 +17,10 @@
 
 int main(void)
 {
-    int count = 1;
-
-    while (count++)
+    Init_Read_PT100();
+    Init_Read_RN8302();
+    while (1)
     {
-//        LOG_D("Hello RT-Thread!");
         rt_thread_mdelay(1000);
     }
 

@@ -99,7 +99,7 @@
 
 /* POSIX layer and C standard library */
 
-#define RT_LIBC_USING_TIME
+#define RT_USING_LIBC
 /* end of POSIX layer and C standard library */
 
 /* Network */
@@ -135,6 +135,7 @@
 
 /* log format */
 
+#define ULOG_OUTPUT_FLOAT
 #define ULOG_USING_COLOR
 #define ULOG_OUTPUT_TIME
 #define ULOG_OUTPUT_LEVEL

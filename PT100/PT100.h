@@ -10,6 +10,6 @@
 #ifndef PT100_PT100_H_
 #define PT100_PT100_H_
 
-
+int Init_Read_PT100(void);
 
 #endif /* PT100_PT100_H_ */

@@ -6,6 +6,6 @@
 /* RT-Thread pre-include file */
 
 #define HAVE_CCONFIG_H
-#define RT_USING_MINILIBC
+#define RT_USING_NEWLIB
 
 #endif /*RTCONFIG_PREINC_H__*/
